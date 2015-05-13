@@ -1,0 +1,52 @@
+/* Custom Stylesheet */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  background: transparent !important;
+}
+
+nav .brand-logo, .brand-logo img {
+  height: 100%;
+}
+
+.brand-logo img {
+  padding: 20px;
+}
+
+.hello-opener {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: url(../img/header_bg.jpg) top left;
+}
+
+.center.lhd-logo {
+  width: 45%;
+  margin: auto;
+}
+
+.lhd-logo img {
+  max-width: 100%;
+}
+
+.lhd-details {
+  color: #fff;
+  font-weight: 300;
+}
