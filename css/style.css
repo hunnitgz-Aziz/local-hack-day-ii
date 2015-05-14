@@ -12,6 +12,7 @@ html, body {
 body {
   position: relative;
   font-family: 'Lato', sans-serif;
+  background: #f8ffff;
 }
 
 nav {
@@ -56,6 +57,7 @@ nav a:hover {
   color: #fff;
   font-weight: 300;
   margin: 60px 0;
+  font-size: 18px;
 }
 
 .lhd-button {
