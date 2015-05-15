@@ -30,6 +30,17 @@ nav a:hover {
   transition: all ease 0.8s;
 }
 
+.navi-skrollz {
+  background: #fff !important;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  position: fixed;
+  z-index: 9999;
+}
+
+.navi-skrollz a {
+    color: #212828;
+}
+
 .brand-logo img {
   padding: 20px;
 }
@@ -331,6 +342,10 @@ footer.page-footer .footer-copyright {
   .intro h3, .testie-body .intro h3 {
     font-size: 30px;
   } 
+
+  .navi-skrollz {
+    display: none !important;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 992px) {
@@ -340,5 +355,9 @@ footer.page-footer .footer-copyright {
 
   .center.lhd-logo {
     width: 90%;
+  }
+
+  .navi-skrollz {
+    display: none !important;
   }
 }
