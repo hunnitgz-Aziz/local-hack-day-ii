@@ -183,3 +183,59 @@ nav a:hover {
 .hacker-test .line-twerk {
   width: 60px;
 }
+
+/* Map */
+.map .leaflet-bottom.leaflet-right {
+    display: none !important;
+}
+
+.map .leaflet-top.leaflet-left {
+    display: none !important;
+}
+
+.map .leaflet-bottom.leaflet-left {
+    display: none !important;
+}
+
+.map .top-overlay {
+      background: linear-gradient(to top,rgba(245,240,238,0) 0%,rgba(245,240,238,0.1) 75%,rgba(245,240,238,1) 100%);
+      position: relative;
+      height: 100%;
+      min-height: 100%;
+      margin-bottom: -5px;
+  }
+
+
+/* Pictures */
+.picture-box {
+    width: 33.3333%;
+    float: left;
+}
+
+.picture-box img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.pictures {
+    position: relative;
+    min-height: 100%;
+}
+
+.picture-panel {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .picture-box {
+    width: 100%;
+  }
+}
+
+/*@media (min-width: 601px) and (max-width: 992px) {
+  .picture-box {
+    width: 50%;
+  }
+}*/
