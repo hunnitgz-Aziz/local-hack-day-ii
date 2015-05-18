@@ -30,6 +30,37 @@ nav a:hover {
   transition: all ease 0.8s;
 }
 
+.side-nav {
+  background-color: #1E1F20;
+  border-right: 1px solid #262A2C;
+}
+
+.side-nav li {
+  padding: 0;
+}
+
+.side-nav li:hover {
+  background: #000;
+}
+
+.side-nav a {
+  padding: 0 20px;
+  color: #9CA1A1;
+}
+
+.side-nav a:hover {
+  background: #000;
+}
+
+.side-nav span {
+    float: right;
+}
+
+.side-nav span .fa {
+    font-size: 16px;
+    line-height: 64px;
+}
+
 .navi-skrollz {
   background: #fff !important;
   border-bottom: 1px solid rgba(0,0,0,0.2);
