@@ -218,6 +218,10 @@ nav a:hover {
   background-size: 100px;
 }
 
+.hacker-logo.hackbca {
+  background: url(../img/hackbca.png) no-repeat center center;
+  background-size: 200px;
+}
 
 
 .statement p {
