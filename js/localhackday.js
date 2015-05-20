@@ -5,7 +5,6 @@
    */
   var LocalhackdayEvent;
   LocalhackdayEvent = function(data) { this.raw = data; };
-  LocalhackdayEvent.prototype = Object;
   LocalhackdayEvent.prototype.id = function() { return this.raw.id; }
   LocalhackdayEvent.prototype.city = function() { return this.raw.city; }
   LocalhackdayEvent.prototype.location = function() { return this.raw.geo.address; }
@@ -24,7 +23,7 @@
    */
 
   var Localhackday = {
-    base_url: "http://organizer.mlh.io.dev/localhackday/api", // Base API URL
+    base_url: "http://organizer.mlh.io/localhackday/api", // Base API URL
 
     // START View all events from the API
     /**
