@@ -17,7 +17,7 @@
     // START General AJAX function
     queryAPI: function(method, resource, parameters, success, error) {
       return $.ajax({
-        url: this.base_url + resource
+        url: this.base_url + resource,
         method: method,
         data: parameters || {},
         dataType: "json",
