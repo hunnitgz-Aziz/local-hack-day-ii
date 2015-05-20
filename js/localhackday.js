@@ -15,7 +15,6 @@
   LocalhackdayEvent.prototype.organizerOrganization = function() { return this.raw.organizers.organization; }
   LocalhackdayEvent.prototype.organizerUrl = function() { return this.raw.organizers.url; }
   LocalhackdayEvent.prototype.toString = function() { return this.raw; };
-
   LocalhackdayEvent.prototype.registerHacker = function(first_name, last_name, email, school, year, major, callbackSuccess, callbackError) {
     Localhackday.registerNewHackerForEvent(this.id(), first_name, last_name, email, school, year, major, callbackSuccess, callbackError);
   };
